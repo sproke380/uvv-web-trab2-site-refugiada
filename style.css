@@ -1,0 +1,111 @@
+.c1{
+    font-size: 60px;
+    color: #ffffff;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+  }
+  
+  .c2{
+      font-size: 20px;
+    color: white;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+  }
+  
+  body {
+    background-image: url('../uk.png');
+    background-size: cover;
+    background-position-y: -200px;
+    background-image: url(https://i.pinimg.com/originals/5a/c1/29/5ac1296b709f4427d4c7785a322d78a2.png);
+  }
+  
+  textarea:focus, input:focus{
+    outline: none;
+  }
+  
+  a {
+    font-size: .8rem;
+  }
+  
+
+  
+  /* container login */
+  #login-container {
+    background-color: #dea9ff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vh;
+    height: 50vh;
+    padding: 20px 30px;
+    margin-top: 5vh;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  /* formulário */
+  form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  input:focus {
+    border-bottom: 2px solid #08558B;
+  }
+  
+  #forgot-pass {
+    display: block;
+    text-align: right;
+  }
+  
+  input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius:0px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #9b58b8;
+    font-weight: bold;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #456af0c6;
+    transition: .9s;
+  }
+  
+  
+  #register-container {
+    text-align: center;
+    margin-top: 0vh;
+    color: #323232;
+  }
+  
