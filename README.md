@@ -1,6 +1,2 @@
 # uvv-web-trab2-site-refugiada
 Durante as aulas de UX Design, precisávamos criar um site que fosse o mais prático possível para  conseguir ajudar as mulheres refugiadas da Ucrânia que estão em guerra neste exato momneto a encontrarem uma casa para  que possam se abrigar. Dito isso pela professora, criei uma tela de Login  bem prática e de fácil mobilidade de navegação, para que não tenham dificuldade em usar durante esse periodo turbulento que estão vivendo.
-
-Explicação do código JavaScript: primeiro passo foi recuperar os valores do input com a variável "let", com document.getElementById e document.querySelector. Feito isso, desenvolvi um validador para o e-mail e senha; O campo e-mail, por exemplo, precisa ser preenchido seguindo o formato nome@email.com, sendo que se o usuário não digitar o "@", algum nome antes ou depois do "@", eo ".com" no final , o campo não será preenchido. Na senha, o usuário precisa digitar no mínimo 6 dígitos, incluindo pelo menos um número e um caractere especial como "@, %, $, etc". Para isso, crio a função nas linhas 44 e 50 usando expressões regulares (peguei no site do mozila). As vezes em que os requisitos não são atendidos, uma mensagem aparece para o usuário,
-
-OBS: Os campos nulos não são preenchidos.
